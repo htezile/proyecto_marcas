@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/servicios.xsl"?>
+
+<servicios>
+<servicio nombre="Peluqueria">
+  <imagen ruta="../imagenes/peluqueria.jpg"/>
+</servicio>
+
+<servicio nombre="Maquillaje">
+  <imagen ruta="../imagenes/Maquillaje.jpg"/>
+</servicio>
+
+<servicio nombre="Invitaciones">
+  <imagen ruta="../imagenes/invitaciones.jpg"/>
+</servicio>
+
+<servicio nombre="Recuerdos">
+  <imagen ruta="../imagenes/recuerdos.jpg"/>
+</servicio>
+
+<servicio nombre="Catering">
+  <imagen ruta="../imagenes/catering.png"/>
+</servicio>
+
+<servicio nombre="Fotografia">
+  <imagen ruta="../imagenes/fotografia.jpg"/>
+</servicio>
+
+</servicios>
+
+

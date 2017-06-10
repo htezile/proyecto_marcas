@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/eventos.xsl"?>
+
+<eventos>
+<evento nombre="Bodas">
+  <imagen ruta="../imagenes/bodaxml.png"/>
+</evento>
+
+<evento nombre="Comuniones">
+  <imagen ruta="../imagenes/comunionesxml.jpg"/>
+</evento>
+
+<evento nombre="Bautizos">
+  <imagen ruta="../imagenes/bautizo.jpg"/>
+</evento>
+
+<evento nombre="Cumpleaños">
+  <imagen ruta="../imagenes/cumple.jpg"/>
+</evento>
+<evento nombre="Baby Shower">
+  <imagen ruta="../imagenes/baby.jpg"/>
+</evento>
+
+<evento nombre="Reuniones Empresa">
+  <imagen ruta="../imagenes/empresa.jpg"/>
+</evento>
+</eventos>
+
+

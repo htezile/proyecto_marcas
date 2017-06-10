@@ -1,0 +1,140 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Tangerine_Bold.ttf);
+}
+
+@font-face {
+	font-family: myNewFont;
+    src: url(../fonts/JosefinSans-Regular.ttf);
+}
+
+.menu {width: 100%;
+	   background-color: #ddcccc;
+	   list-style: none;
+	   padding: 0;
+	   margin: 0;   
+}
+
+.menu li {
+		display: inline-block;
+}
+
+.menu li a {
+	 color:  #cc9800;
+	 font-family: 'myFirstFont', cursive;
+	 font-size: 35px;
+	 text-decoration: none;
+	 padding: 10px 20px;
+	 display: inline-block;
+	 text-shadow: 3px 3px 10px grey;
+}
+
+.menu li:hover {
+				 background: #f3eccd;
+}
+.cabecera {
+		   background-color: #f3e0ea;
+		   height: 100px;
+		   padding-left: 50px;
+		  }
+
+h1 {
+    font-weight: normal;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-left: 25px;
+    color: #cc9800;
+    font-family: 'myFirstFont', cursive;
+    text-shadow: 3px 3px 10px grey;
+}
+
+h2 {
+	font-weight: normal;
+    font-size: 21px;
+    font-family: 'myNewFont';
+}
+body{
+	background-color: beige;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 1%;
+}
+.container{
+	width: 100%;
+	height: 400px;
+}
+.footer{
+		width: 100%;
+	    height: 70px;
+	    background-color: #f3e0ea;
+		color: #8215a5;
+}
+
+.info{
+	margin-top: -5%;
+}
+
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	margin-top: 0px;
+	padding: 0;
+	width: 600%;
+	animation: cambio 30s infinite;
+	animation-direction: alternate;
+}
+
+.slider li {
+	width: 100%
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+	height: 400px;
+}
+
+@keyframes cambio{
+	0%{margin-left: 0;}
+	13%{margin-left: 0;}
+
+	17%{margin-left: -100%;}
+	30%{margin-left: -100%;}
+
+	34%{margin-left: -200%;}
+	47%{margin-left: -200%;}
+
+	51%{margin-left: -300%;}
+	64%{margin-left: -300%;}
+
+	68%{margin-left: -400%;}
+	81%{margin-left: -400%;}
+
+	85%{margin-left: -500%;}
+	100%{margin-left: -500%;}
+}
+
+.iconos {
+	position: absolute;
+	top: 40px;
+	right: 150px;
+	color:  #787D83;
+	size: 17px;
+}
+span {
+ 	padding: 10px;
+ }
+.icon-phone{
+ 	padding-right: 3px;
+ }
+.icon-envelop{
+	padding-right: 3px;
+}
+
+		
+
