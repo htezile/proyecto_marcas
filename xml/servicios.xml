@@ -7,7 +7,7 @@
 </servicio>
 
 <servicio nombre="Maquillaje">
-  <imagen ruta="../imagenes/Maquillaje.jpg"/>
+  <imagen ruta="../imagenes/maquillaje.jpg"/>
 </servicio>
 
 <servicio nombre="Invitaciones">
